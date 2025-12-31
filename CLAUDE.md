@@ -52,6 +52,11 @@ We use a shared task manager. **Your project name:** `hereserver`
    python task_api.py update <task_id> --queue user
    ```
 
+4. **Create new task** (for follow-ups or discovered issues):
+   ```bash
+   python task_api.py create hereserver "title" ["description"]
+   ```
+
 ### Running Task Manager
 
 ```bash
